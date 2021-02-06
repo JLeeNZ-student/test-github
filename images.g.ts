@@ -1,4 +1,9 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="b2oaXTWT];4gG=ZyxK-t" x="0" y="0"><statement name="HANDLER"><block type="mixer_play_sound" id="Lj}nSVrZf|s6p|mQOO1c"><field name="sound">music.baDing</field><next><block type="gamesetbackgroundimage" id="VeE~D:C0)_e*0SKV7rMt"><value name="img"><shadow type="background_image_picker" id="8@-ZKPID6uSjWL%..1EO"><field name="img">img`
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "image1":return img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +124,17 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value></block></next></block></statement></block></xml>
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
